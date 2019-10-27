@@ -1,0 +1,28 @@
+{
+  "name": "barbershopborodinskyrefactoring",
+  "version": "1.0.0",
+  "description": "First",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.4.0",
+    "gulp-csso": "^3.0.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-less": "^4.0.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-posthtml": "^3.0.4",
+    "gulp-rename": "^1.4.0",
+    "gulp-svgstore": "^7.0.0",
+    "gulp-webp": "^3.0.0"
+  }
+}

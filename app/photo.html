@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Барбершоп Бородинский</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="page-header">
+    <div class="page-header__logo page-header__logo--inner-page">
+      <picture>
+        <source media="(min-width: 1200px)" srcset="img/logotype-desktop.svg">
+        <source media="(min-width: 768px)" srcset="img/logotype-table.svg">
+        <img src="img/logotype-mobile.svg" width="370" height="153" alt="Барбершоп «Бородинский»">
+      </picture>
+    </div>
+    <nav class="main-nav main-nav--closed main-nav--nojs">
+      <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item">
+            <a href="index.html">Главная</a>
+          </li>
+          <li class="site-list__item site-list__item--active">
+            <a>Наши работы</a>
+          </li>
+          <li class="site-list__item">
+            <a href="form.html">Записаться</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">Контакты</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">Партнеры </a>
+          </li>
+        </ul>
+        <ul class="main-nav__list user-list">
+          <li class="user-list__item">
+            <a class="user-list__login" href="#">
+              <svg class="user-list__login-icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                <polygon points="0 7 7.01 7 7.01 4.06 10.96 8.01 7.01 11.91 7.01 9.06 0 9.02 0 7" />
+                <polygon points="7.01 0 7.01 2 14.03 2 14.03 13.99 7.01 13.99 7.01 16 16 16 16 0 7.01 0" />
+              </svg>
+              Войти
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="light-bg">
+    <section class="works">
+      <h1 class="visually-hidden">Наши работы и когда мы работаем</h1>
+      <div class="works__wrapper">
+        <h2 class="works__title">Наши работы</h2>
+        <a class="button works__return" href="index.html">На главную</a>
+        <ul class="works__list">
+          <li class="works-item  works-item--workmonth">
+            <div class="works-item__img-wrapper">
+              <picture>
+                <source type="image/webp" media="(min-width: 1200px)" srcset="img/photo-1-desktop.webp">
+                <source type="image/webp" media="(min-width: 768px)" srcset="img/photo-1-tablet.webp">
+                <source type="image/webp" srcset="img/photo-1-mobile.webp">
+                <source media="(min-width: 1200px)" srcset="img/photo-1-desktop.jpg">
+                <source media="(min-width: 768px)" srcset="img/photo-1-tablet.jpg">
+                <img class="works-item__img" src="img/photo-1-mobile.jpg" alt="Работа месяца">
+              </picture>
+            </div>
+            <div class="works-item__review">
+              <div class="works-item__review-text">
+                <h3 class="works-item__title">Лжепётр Мчиславский</h3>
+                <blockquote class="works-item__blockquote">
+                  Где я только не стригся, но так как делаете это вы — не умеет никто другой! Еще раз спасибо и до скорого!
+                </blockquote>
+              </div>
+              <ul class="works-item__parameter-list">
+                <li class="works-item__parameter-item  works-item__parameter-item--haircut">Стрижка</li>
+                <li class="works-item__parameter-item  works-item__parameter-item--shaving">Бритьё</li>
+                <li class="works-item__parameter-item  works-item__parameter-item--mustache">Усы</li>
+              </ul>
+            </div>
+          </li>
+          <li class="works-item">
+            <div class="works-item__img-wrapper">
+              <picture>
+                <source type="image/webp" media="(min-width: 1200px)" srcset="img/photo-2-desktop.webp">
+                <source type="image/webp" media="(min-width: 768px)" srcset="img/photo-2-tablet.webp">
+                <source type="image/webp" srcset="img/photo-2-mobile.webp">
+                <source media="(min-width: 1200px)" srcset="img/photo-2-desktop.jpg">
+                <source media="(min-width: 768px)" srcset="img/photo-2-tablet.jpg">
+                <img class="works-item__img" src="img/photo-2-mobile.jpg" alt="Пример нашей работы">
+              </picture>
+            </div>
+            <div class="works-item__review">
+              <div class="works-item__review-text">
+                <h3 class="works-item__title">Саша Мальцев</h3>
+                <blockquote class="works-item__blockquote">
+                  Попросил омолодить и омолодили! Кто теперь скажет, что мне 45?
+                </blockquote>
+              </div>
+              <ul class="works-item__parameter-list">
+                <li class="works-item__parameter-item  works-item__parameter-item--haircut">Стрижка</li>
+              </ul>
+            </div>
+          </li>
+          <li class="works-item">
+            <div class="works-item__img-wrapper">
+              <picture>
+                <source type="image/webp" media="(min-width: 1200px)" srcset="img/photo-3-desktop.webp">
+                <source type="image/webp" media="(min-width: 768px)" srcset="img/photo-3-tablet.webp">
+                <source type="image/webp" srcset="img/photo-3-mobile.webp">
+                <source media="(min-width: 1200px)" srcset="img/photo-3-desktop.jpg">
+                <source media="(min-width: 768px)" srcset="img/photo-3-tablet.jpg">
+                <img class="works-item__img" src="img/photo-3-mobile.jpg" alt="Пример нашей работы">
+              </picture>
+            </div>
+            <div class="works-item__review">
+              <div class="works-item__review-text">
+                <h3 class="works-item__title">Владимир Иваныч</h3>
+                <blockquote class="works-item__blockquote">
+                  К зимнему сезону — готов!
+                </blockquote>
+              </div>
+              <ul class="works-item__parameter-list">
+                <li class="works-item__parameter-item  works-item__parameter-item--shaving">Борода</li>
+                <li class="works-item__parameter-item  works-item__parameter-item--mustache">Усы</li>
+              </ul>
+            </div>
+          </li>
+          <li class="works-item">
+            <div class="works-item__img-wrapper">
+              <picture>
+                <source type="image/webp" media="(min-width: 1200px)" srcset="img/photo-4-desktop.webp">
+                <source type="image/webp" media="(min-width: 768px)" srcset="img/photo-4-tablet.webp">
+                <source type="image/webp" srcset="img/photo-4-mobile.webp">
+                <source media="(min-width: 1200px)" srcset="img/photo-4-desktop.jpg">
+                <source media="(min-width: 768px)" srcset="img/photo-4-tablet.jpg">
+                <img class="works-item__img" src="img/photo-4-mobile.jpg" alt="Пример нашей работы">
+              </picture>
+            </div>
+            <div class="works-item__review">
+              <div class="works-item__reviev-text">
+                <h3 class="works-item__title">Винстон Синий</h3>
+                <blockquote class="works-item__blockquote">
+                  Как только заростаю и волосы начинают мешать видеть — бегом в Бородинский!
+                </blockquote>
+              </div>
+              <ul class="works-item__parameter-list">
+                <li class="works-item__parameter-item  works-item__parameter-item--haircut">Стрижка</li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <div class="dark-bg">
+      <section class="price">
+        <div class="price__wrapper">
+          <h2 class="price__title">Прейскурант</h2>
+          <div class="price__columns">
+            <table class="price__table">
+              <tr>
+                <td class="col-1">1</td>
+                <td class="col-2">Классическая стрижка</td>
+                <td class="col-3">(с мытьём головы)</td>
+                <td class="col-4">1 500 руб.</td>
+              </tr>
+              <tr>
+                <td class="col-1">2</td>
+                <td class="col-2">Современный вариант</td>
+                <td class="col-3">(с мытьём головы)</td>
+                <td class="col-4">1 500 руб.</td>
+              </tr>
+              <tr>
+                <td class="col-1">3</td>
+                <td class="col-2">Индивидуальный подход</td>
+                <td class="col-3">(с мытьём головы)</td>
+                <td class="col-4">2 000 руб.</td>
+              </tr>
+              <tr>
+                <td class="col-1">4</td>
+                <td class="col-2">Бритьё бороды</td>
+                <td class="col-3">(без мытья)</td>
+                <td class="col-4">500 руб.</td>
+              </tr>
+              <tr>
+                <td class="col-1">5</td>
+                <td class="col-2">Бритьё бороды</td>
+                <td class="col-3">(с мытьём головы)</td>
+                <td class="col-4">1 000 руб.</td>
+              </tr>
+            </table>
+            <p class="price__discount">С 10:00 до 14:00 скидка 20%</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer class="page-footer">
+    <div class="page-footer__wrapper">
+      <p class="page-footer__contacts">
+        <b>Барбершоп Бородинский</b>
+        <br> г. Санкт-Петербург, ул. Большая Конюшенная 19/8
+        <br> <a class="btn" href="tel:+78125556666"><span class="contacts__phone-mobile">Тел.:</span> +7 (812) 555-66-66</a>
+      </p>
+      <p class="page-footer__social">
+        <span class="page-footer__social-title">Давайте дружить!</span>
+        <span class="social-links">
+          <a class="social-link  social-link--vk" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
+          <a class="social-link  social-link--fb" href="https://www.facebook.com/htmlacademy">Мы в Фейсбуке</a>
+          <a class="social-link  social-link--ig" href="https://instagram.com/htmlacademy">Мы в Инстаграме</a>
+        </span>
+      </p>
+      <p class="page-footer__copyright">
+        <b>Разработано:</b>
+        <a class="btn" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/common.js"></script>
+
+</body>
+</html>
